@@ -14,7 +14,7 @@ set incsearch
 set ignorecase
 
 " show line numbers
-"set number
+set number
 
 " set margin indicator
 set colorcolumn=80
@@ -24,3 +24,17 @@ nnoremap ;bl :buffers<CR>:buffer<Space>
 
 " show syntax highlighting
 syntax on
+
+" set color scheme
+colorscheme elflord
+
+" always show status line
+set laststatus=2
+
+" backspace work like most other apps
+set backspace=indent,eol,start
+
+" shows where you are in a file
+"set ruler
+
+
