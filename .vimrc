@@ -13,6 +13,9 @@ set incsearch
 " ignore case during search
 set ignorecase
 
+" turn off ignore case when searching for uppercase letters
+set smartcase
+
 " show line numbers
 set number
 
@@ -37,4 +40,6 @@ set backspace=indent,eol,start
 " shows where you are in a file
 "set ruler
 
+" search regex always in very magic mode 
+nnoremap / /\v
 
